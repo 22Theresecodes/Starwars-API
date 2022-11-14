@@ -18,5 +18,5 @@ You are to create a SPA (single page application) application using HTML, CSS an
 5. When you are done, host your application on heroku or netlify (submit link should be added to your turned in field on Teams)
 
 
-The application can be viewwed on: https://nimble-strudel-2df27c.netlify.app/?classId=cd26d6c9-fe2d-4a7e-a9ca-1dfc40a632f4&assignmentId=d436a937-d855-4c41-9325-c695a2d09bb7&submissionId=e8ec14fa-672c-b567-9a33-d52e40d5467c
+The application can be viewwed on: https://theresastarwarsapi.netlify.app/
 
