@@ -1,0 +1,83 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: #000; */
+}
+.name {
+  color: #ffff;
+  margin-left: 100px;
+}
+.body {
+  background-color: rgb(114, 87, 6);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+}
+.grid-container {
+  display: flex;
+  column-gap: 50px;
+  margin: 5px;
+  padding: 30px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: left;
+}
+img {
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.hide-details {
+  visibility: hidden;
+  color: #ffff;
+  margin: 40px;
+  margin-top: 2px;
+}
+
+.list-child {
+  visibility: visible;
+  color: rgb(9, 1, 1);
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+.list-child:hover {
+  color: rgb(242, 238, 238);
+  background-color: black;
+  transform: scale(1.1);
+}
+
+ul {
+  list-style: none;
+}
+@media screen and (max-width: 800px) {
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  img {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .grid-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
